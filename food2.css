@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserret', sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-shadow: 0px 4px 4px -6px black;
+}
+.simple{
+    font-size: 32px;
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    padding-left: 39px;
+    display: inline;
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    padding: 105px 80px;
+}
+.recipe_main{
+    width: 100%;
+    height: auto;
+}
+.recipe_main_img{
+    width: 544px;
+    height: auto;
+}
+.recipe_main_content{
+    margin: 90px 50px;
+}
+.recipe_main_content>h1{
+    font-size: 26px;
+    color: #303036;
+    font-weight: 400;
+    line-height: 35px;
+}
+.list{
+    float: right;
+    margin: 75px 154px;
+    font-size: 15px;
+    color: #595c69;
+    line-height: 25px;
+}
+.recipe_list{
+    width: 100%;
+    background-color: #fff8f2;
+    position: absolute;
+    height: auto;
+    top: 681px;
+    z-index: -1;
+}
+.recipe_main_content>article>p>img{
+    margin-right: 25px;
+
+}
+.recipe_main_content>article>p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #595c69;
+}
+.recipe_main_content>p{
+    margin-top: 104px;
+    font-size: 15px;
+    color: #595c69;
+    line-height: 24px;
+}
+.primary_recipe>li,.secondary_recipe>li{
+    display: list-item;
+    padding: 0;
+    margin-top: 24px;
+
+}
+.prelist{
+    padding: 33px 80px;
+    color: #595c69;
+}
+.prelist>ul{
+    padding: 0;
+}
+.prelist>ul>li{
+    display: list-item;
+    list-style: auto;
+    margin: 20px 0;
+    margin-left: 17px;
+    padding-left: 17px;
+    font-family: 15px;
+    line-height: 30px;
+    font-weight: 300;
+
+
+
+}
+.prelist>ul>caption{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+.secondary_grid{
+    padding: 114px 80px 0;
+    padding-right: 0;
+}
+.secondary_grid_img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.secondary_grid>h1{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #303036;
+}
+.secondary_content{
+    margin-top: 31px;
+
+}
+.secondary_content>h3{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #9fa1aa;
+    line-height: 16px;
+    font-weight: 400;
+}
+.secondary_content>h2{
+    margin-top: 12px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.secondary_content>p{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 300;
+
+    
+}
